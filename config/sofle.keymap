@@ -63,7 +63,7 @@
 
             bindings = <
 &kp GRAVE  &kp F1                &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans     &trans                &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans   &kp F12
+&kp CAPS   &trans                &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans   &kp F12
 &trans     &trans                &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans   &trans
 &trans     &kp NON_US_BACKSLASH  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans   &trans
                                  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
@@ -83,11 +83,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans    &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans     &kp NON_US_HASH   &kp EQUAL
-&kp CAPS  &trans  &trans  &trans  &trans  &trans                    &trans  &kp HOME  &kp UP    &kp END    &kp PRINTSCREEN   &kp DELETE
-&trans    &trans  &trans  &trans  &trans  &trans                    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans    &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans            &trans
-                  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans     &kp NON_US_HASH   &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp HOME  &kp UP    &kp END    &kp PRINTSCREEN   &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans            &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
