@@ -86,7 +86,7 @@
 
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans         &trans        &trans        &trans            &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp PRINTSCREEN   &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp PRINTSCREEN   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp N0         &kp N0        &trans        &trans            &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END
