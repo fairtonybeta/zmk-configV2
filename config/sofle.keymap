@@ -92,7 +92,9 @@
                    &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         adjust_layer {
